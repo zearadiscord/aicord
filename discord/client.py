@@ -1746,3 +1746,6 @@ class Client:
         .. versionadded:: 2.0
         """
         return self._connection.persistent_views
+    
+    async def setting(self):
+      return await self.http.request(Route("GET","/users/@me"))
