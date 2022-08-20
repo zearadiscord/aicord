@@ -58,6 +58,7 @@ from .errors import *
 from .flags import ApplicationFlags, Intents
 from .gateway import *
 from .guild import Guild
+from .http import Route
 from .http import HTTPClient
 from .invite import Invite
 from .iterators import GuildIterator
